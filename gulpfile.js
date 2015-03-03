@@ -3,20 +3,20 @@ var gulp = require('gulp')
   , concat = require('gulp-concat')
 
 var files = [
-  "bower_components/fastclick/lib/fastclick.js",
+  "node_modules/fastclick/lib/fastclick.js",
   "src/index.js"
 ]
 
 gulp.task('build', function() {
   return gulp.src(files)
-         .pipe(concat('index.js'))
+         .pipe(concat('dist/index.js'))
          .pipe(gulp.dest('.'))
 })
 
 gulp.task('minified', function() {
   return gulp.src(files)
          .pipe(uglify())
-         .pipe(concat('index.min.js'))
+         .pipe(concat('dist/index.min.js'))
          .pipe(gulp.dest('.'))
 })
 
