@@ -8,7 +8,7 @@ In your Angular project, run `bower install --save ng-fastclick` to save the
 module. Then, in your HTML, add:
 
 ``` html
-<script src="/path/to/bower_components/ng-fastclick/src/index.js"></script>
+<script src="/path/to/bower_components/ng-fastclick/index.js"></script>
 ```
 
 And lastly, in your Angular module, include `ng-fastclick` as a dependency:
