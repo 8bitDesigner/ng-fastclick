@@ -4,12 +4,24 @@
   "scripts": {
     "build": "gulp"
   },
-  "author": "Paul Sweeney <paul@fullscreen.net>",
+  "author": {
+    "name": "Paul Sweeney",
+    "email": "paul@fullscreen.net"
+  },
+  "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "fastclick": "^1.0.6",
     "gulp": "^3.8.7",
     "gulp-concat": "^2.3.4",
     "gulp-uglify": "^0.3.1"
-  }
+  },
+  "gitHead": "d74a6b674f7093ab3bd459cfc51316924ec0e9a5",
+  "readme": "# ng-fastclick\r\n\r\nThis is a very thin (3 line!) Angular wrapper around the [FT's](https://github.com/ftlabs) fantastic [FastClick](https://github.com/ftlabs/fastclick)\r\n\r\n## Installation\r\n\r\nIn your Angular project, run `bower install --save ng-fastclick` to save the\r\nmodule. Then, in your HTML, add:\r\n\r\n``` html\r\n<script src=\"/path/to/bower_components/ng-fastclick/dist/index.min.js\"></script>\r\n```\r\n\r\nAnd lastly, in your Angular module, include `ng-fastclick` as a dependency:\r\n\r\n``` javascript\r\nangular.module('my-app', ['ng-fastclick'])\r\n```\r\n\r\n",
+  "readmeFilename": "README.md",
+  "description": "This is a very thin (3 line!) Angular wrapper around the [FT's](https://github.com/ftlabs) fantastic [FastClick](https://github.com/ftlabs/fastclick)",
+  "_id": "ng-fastclick@1.0.2",
+  "_shasum": "71aaccb505d790aa315840d669a080b2189458c8",
+  "_from": "git+https://github.com/8bitDesigner/ng-fastclick.git#v1.0.2",
+  "_resolved": "git+https://github.com/8bitDesigner/ng-fastclick.git#d74a6b674f7093ab3bd459cfc51316924ec0e9a5"
 }
